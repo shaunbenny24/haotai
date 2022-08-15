@@ -40,6 +40,9 @@ height: 321px;
 .leftlogo img{
     padding-right: 30px;
 }
+.ham{
+    display: none;
+}
     
 
 .readmore{
@@ -98,16 +101,19 @@ height: 321px;
 
   
     border: 1px solid #FFE2E4;
-    width: 300px;
+    
     text-align: center;
-    margin: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 36px;
    
 }
 .job{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-left: 40px;
+    margin: 40px;
     padding-top: 20px;
+    
 }
 
 .lastdetails{
@@ -163,12 +169,14 @@ h2{
  }
 .category a{
     text-decoration: none;
-    text-align: center;
-    color: #FF575E;
 
-    line-height: 211px;
+    color: black;
+    
 
 }
+#more{display: flex;
+align-items: center;
+justify-content: center;}
 
 /* home page ends here */
 
@@ -181,10 +189,12 @@ h2{
     column-gap: 124px;
     padding-top: 20px;
 }
-.blank1{
+.blank1 img{
 
     background: #FFE2E4;
     border-radius: 12px;
+    width: 391px;
+   
     }
     
     
@@ -225,9 +235,10 @@ align-items: center;
         text-align: center;
         margin: 15px;
     
-    
-       
     }
+    .jobs{text-align: center;
+    padding-top: 10px;}
+
     .category2 img{
         padding-right: 30px;
     }
@@ -257,6 +268,9 @@ align-items: center;
     color: #FF575E;
     border-radius: 12px;
 }
+h3{
+    text-align: center;
+}
 .lastdetails3{
     display: grid;
 grid-template-columns: repeat(3,1fr);
@@ -266,4 +280,56 @@ justify-content: center;
 gap: 20px;
 column-gap: 30px;
 }
+.s3{
+    margin: 10px;
+}
  /* last subjob page ends here  */
+
+ @media screen and (max-width: 600px){
+    .blank{ display: none;}
+    .first{ grid-column: span 2;
+       }
+    .sub{display: none;}
+    .category,.category2{grid-column: span 3;}
+    
+    .pagelinks{ display: none;}
+    .mini{grid-column: span 3;}
+    .leftlogo h1{
+        display: none;
+    }
+    .blank1{
+        grid-column: span 2;
+        grid-row: 1;
+        padding-bottom: 30px;
+        max-width: 200px;
+    }
+    .para{ grid-column: span 2;}
+    .bigbox1{
+        grid-column: span 4;
+        column-gap: 10px;
+        margin: 10px 0px 0px 71px;
+1
+    }
+    .jobs{padding-left: 20px;}
+    #spotlight3{
+        border: 1px solid #FFE2E4;
+        text-align: center;
+        margin: 15px;
+        width: 350px;
+
+    }
+    .s3{
+        grid-column: span 3;
+    }
+    .ham{display: block;}
+    #more {
+        background-color: #FF575E;
+        ;
+        border-radius: 18px;
+        color: white;
+        width: 140px;
+        margin-left: 114px;
+        margin-top: 30px;
+        
+    } 
+} 
