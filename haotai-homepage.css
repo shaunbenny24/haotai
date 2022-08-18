@@ -230,6 +230,7 @@ padding-bottom: 30px;
     grid-template-columns: repeat(3,1fr);
     padding-top: 30px;
     padding-left: 33px;
+    padding-right: 33px;
 }
 .crypto{
     display: none;
@@ -375,7 +376,8 @@ margin-bottom: 30px;
     
 .sub{display: none;}
 .category{grid-column: span 3;}
-.category2{ grid-column:  span 3;}
+.category2{ grid-column:  span 3;
+ margin-right: 60px;}
 
 
 .pagelinks{ display: none;}
@@ -387,7 +389,7 @@ margin-bottom: 30px;
     grid-column: span 2;
     grid-row: 1;
     padding-bottom: 30px;
-    max-width: 200px;
+    max-width: 150px;
 }
 .para{ grid-column: span 2;
 
