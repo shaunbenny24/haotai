@@ -13,6 +13,7 @@
 .container{
     padding-left: 30px;
     padding-right: 30px;
+    
 }
 
 .topdesign{
@@ -107,7 +108,7 @@ height: 321px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 36px;
+    
    
 }
 .job{
@@ -394,7 +395,7 @@ margin-bottom: 30px;
 .bigbox1{
     grid-column: span 4;
     column-gap: 10px;
-    margin: 10px 0px 0px 71px;
+    margin: 10px 0px 0px 96px;
 
 }
 .jobs{padding-left: 20px;}
